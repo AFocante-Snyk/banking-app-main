@@ -1,0 +1,196 @@
+# ================================
+# Luminous Banking - Monorepo .gitignore
+# ================================
+
+# ================================
+# OS Generated Files
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ================================
+# IDE & Editors
+# ================================
+# JetBrains (IntelliJ, WebStorm, PyCharm)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Cursor
+.cursor/
+
+# ================================
+# Java / Maven / Spring Boot
+# ================================
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/*.class
+
+# Maven
+backend/.mvn/timing.properties
+backend/.mvn/wrapper/maven-wrapper.jar
+!backend/.mvn/wrapper/maven-wrapper.properties
+
+# Spring Boot
+backend/*.log
+backend/logs/
+backend/spring.log
+
+# H2 Database files
+*.db
+*.mv.db
+*.trace.db
+
+# ================================
+# JavaScript / TypeScript / Node.js
+# ================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# Vite
+frontend/.vite/
+
+# TypeScript
+frontend/*.tsbuildinfo
+
+# ESLint
+frontend/.eslintcache
+
+# ================================
+# Python / FastAPI
+# ================================
+ai-workflow/__pycache__/
+ai-workflow/**/__pycache__/
+ai-workflow/*.py[cod]
+ai-workflow/*$py.class
+ai-workflow/.Python
+ai-workflow/venv/
+ai-workflow/env/
+ai-workflow/.venv/
+ai-workflow/ENV/
+ai-workflow/*.egg-info/
+ai-workflow/dist/
+ai-workflow/build/
+ai-workflow/*.egg
+ai-workflow/.eggs/
+
+# Virtual environments (anywhere in repo)
+venv/
+.venv/
+env/
+.env.local
+
+# Pytest
+ai-workflow/.pytest_cache/
+ai-workflow/.coverage
+ai-workflow/htmlcov/
+ai-workflow/.tox/
+
+# mypy
+ai-workflow/.mypy_cache/
+
+# ================================
+# Environment & Secrets
+# ================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+secrets/
+credentials/
+
+# ================================
+# Docker
+# ================================
+docker-compose.override.yml
+.docker/
+
+# ================================
+# Logs & Temporary Files
+# ================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ================================
+# Testing & Coverage
+# ================================
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+junit.xml
+
+# ================================
+# Build Artifacts
+# ================================
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ================================
+# Package Manager Locks (optional - uncomment if needed)
+# ================================
+# frontend/package-lock.json
+# frontend/yarn.lock
+# frontend/pnpm-lock.yaml
+
+# ================================
+# Snyk
+# ================================
+.snyk
+
+# ================================
+# Misc
+# ================================
+*.orig
+*.rej
+.cache/
+.parcel-cache/
