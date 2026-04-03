@@ -15,6 +15,6 @@ requests==2.25.0       # Uses vulnerable urllib3
 Pillow==8.0.0          # CVE-2021-25287, CVE-2021-25288 - Buffer overflow
 cryptography==3.3.1    # CVE-2020-36242 - Integer overflow
 paramiko==2.7.1        # CVE-2022-24302 - Race condition
-aiohttp==3.7.3         # CVE-2021-21330 - Open redirect
+aiohttp==3.13.4         # CVE-2021-21330 - Open redirect
 lxml==4.6.2            # CVE-2021-28957 - XSS vulnerability
 
